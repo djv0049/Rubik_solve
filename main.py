@@ -39,8 +39,8 @@ class EdgeCubie(Cubies):
 
 
 class CenterCubie(Cubies):
-    super().__init__()
     def __init__(self, side1: int):
+        super().__init__()
         self.sides.append(side1)
 
 
@@ -71,8 +71,8 @@ class Cube:
         self.size = size
         self.square_count = size*size*size
 
-
-
+    def set_sides(self):
+        pass
 
 
 def print_hi(name):
@@ -83,6 +83,5 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     cube = Cube(2)
-
-
+    print(cube.sides)
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
