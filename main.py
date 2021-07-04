@@ -72,7 +72,7 @@ class Cube:
         self.square_count = size*size*size
 
     def set_sides(self):
-        pass  # test #2
+        pass  # test #3
 
 
 def print_hi(name):
