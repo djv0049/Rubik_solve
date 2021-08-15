@@ -12,7 +12,7 @@ Test
 
 
 def before_all():
-    # set up the default cube from the builder class
+
     pass
 
 def test_rotate_top_clockwise():

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6036d33a-1acf-4ab7-ba43-9a60dfd85e3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Documentation/Resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/test_initial_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_initial_values.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cube.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cube.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628406908608</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sync for matt">
+      <created>1628993008686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628993008686</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +157,7 @@
     <MESSAGE value="test commit for webhook again" />
     <MESSAGE value="Makes basic cube disregarding cubie orientation" />
     <MESSAGE value="refactored and restructured for SOC and SRP. also added testing folder and file with no tests yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored and restructured for SOC and SRP. also added testing folder and file with no tests yet" />
+    <MESSAGE value="sync for matt" />
+    <option name="LAST_COMMIT_MESSAGE" value="sync for matt" />
   </component>
 </project>

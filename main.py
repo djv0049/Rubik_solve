@@ -53,10 +53,10 @@ class Face:
         self.squares = []
         self.positions = []
 
-    def rotate_left(self):
+    def rotate_anti_clockwise(self):
         pass
 
-    def rotate_right(self):
+    def rotate_clockwise(self):
         pass
 
     def rotate_180(self):
