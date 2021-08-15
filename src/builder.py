@@ -3,6 +3,7 @@ from src.cubies import CenterCubie
 from src.cubies import EdgeCubie
 from src.cubies import CornerCubie
 from src.side import Face
+from src.colors import Colors
 """
 
 potentially adhering to the builder pattern
@@ -16,7 +17,7 @@ class Builder:
     def build_finished_cube():
         c3 = Cube(3)
         for i in range(27):
-            print(i)
+            # print(i)
             new_cube = "None"
             if i == 13:
                 continue  # 13 is the center piece
@@ -29,8 +30,14 @@ class Builder:
             else:
                 print("there's a number that shouldn't be here in the cube creation... or your math is wrong daniel.")
             c3.cubies.append(new_cube)
+        c3.sides.append(Face(Colors.RED, Colors.RED))
+        c3.sides.append(Face(Colors.ORANGE, Colors.ORANGE))
+        c3.sides.append(Face(Colors.YELLOW, Colors.YELLOW))
+        c3.sides.append(Face(Colors.GREEN, Colors.GREEN))
+        c3.sides.append(Face(Colors.BLUE, Colors.BLUE))
+        c3.sides.append(Face(Colors.WHITE, Colors.WHITE))
+        # print(str(c3))
         print("done")
-        print(str(c3))
+        return c3
 
-    def three_by_three_sides_setup(self):
-        white = Face()
+
