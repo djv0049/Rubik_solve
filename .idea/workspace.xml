@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6036d33a-1acf-4ab7-ba43-9a60dfd85e3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentation/Resources" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/Resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_initial_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_initial_values.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/colors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cube.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cube.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/side.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/side.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -115,6 +111,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\danie\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6036d33a-1acf-4ab7-ba43-9a60dfd85e3f" name="Default Changelist" comment="" />
@@ -200,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629011993585</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="wrote clockwise rotation function and a sub-satisfactory test to make sure it worked">
+      <created>1629026263178</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629026263178</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update gitignore">
+      <created>1629026372143</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1629026372143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +240,8 @@
     <MESSAGE value="added documentation and changed the rotate methods to have better names" />
     <MESSAGE value="Added more info in documentation, and started with the sides" />
     <MESSAGE value="wrote clockwise rotation function and a sub-satisfactory test to make sure it worked" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrote clockwise rotation function and a sub-satisfactory test to make sure it worked" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

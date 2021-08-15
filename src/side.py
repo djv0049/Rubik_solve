@@ -47,7 +47,7 @@ class Face:
         elif color == Colors.WHITE:
             self.positions = [0, 3, 6, 15, 24, 21, 18, 9, 12]
 
-    # temporary method
+    # todo temporary method will switch up for a dynamic method for any input
     def set_cubies(self, color: Colors):
         if color == Colors.RED:
             self.squares = [6, 7, 8, 17, 26, 25, 24, 15, 16]
