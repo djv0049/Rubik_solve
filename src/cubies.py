@@ -1,8 +1,8 @@
 # super class for all cubies, defines the cubie pos and id(finished pos)
 class Cubies:
-    def __init__(self, id, position):
+    def __init__(self, cubie_id, position):
         self.sides = []
-        self.id = id
+        self.id = cubie_id
         self.position = position
 
     def get_sides(self):

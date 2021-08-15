@@ -48,22 +48,7 @@ yellow_face_positions = {2, 5, 8, 11, 14, 17, 20, 23, 26}
 """
 
 # defines the colors / associated cubies on a particular face
-class Face:
-    def __init__(self):
-        self.squares = []
-        self.positions = []
 
-    def rotate_anti_clockwise(self):
-        pass
-
-    def rotate_clockwise(self):
-        pass
-
-    def rotate_180(self):
-        pass
-
-    def set_colors(self, colors: list):
-        self.squares = [c for c in colors]
 
 
 # Press the green button in the gutter to run the script.

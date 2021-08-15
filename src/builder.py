@@ -2,6 +2,7 @@ from src.cube import Cube
 from src.cubies import CenterCubie
 from src.cubies import EdgeCubie
 from src.cubies import CornerCubie
+from src.side import Face
 """
 
 potentially adhering to the builder pattern
@@ -30,3 +31,6 @@ class Builder:
             c3.cubies.append(new_cube)
         print("done")
         print(str(c3))
+
+    def three_by_three_sides_setup(self):
+        white = Face()
