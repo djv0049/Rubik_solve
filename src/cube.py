@@ -12,6 +12,9 @@ class Cube:
             # need to set one side at a time
             pass
 
+    def get_sides(self):
+        return self.sides
+
     def __str__(self):
         return_string = ""
         for cubie in self.cubies:

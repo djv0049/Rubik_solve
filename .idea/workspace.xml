@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6036d33a-1acf-4ab7-ba43-9a60dfd85e3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/test_initial_values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/colors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cube.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cubies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_initial_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_initial_values.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cube.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cube.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628405888142</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactored and restructured for SOC and SRP. also added testing folder and file with no tests yet">
+      <created>1628406908608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628406908608</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +149,7 @@
     <MESSAGE value="updated gitignore" />
     <MESSAGE value="test commit for webhook again" />
     <MESSAGE value="Makes basic cube disregarding cubie orientation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Makes basic cube disregarding cubie orientation" />
+    <MESSAGE value="refactored and restructured for SOC and SRP. also added testing folder and file with no tests yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored and restructured for SOC and SRP. also added testing folder and file with no tests yet" />
   </component>
 </project>
