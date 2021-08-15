@@ -50,15 +50,12 @@ yellow_face_positions = {2, 5, 8, 11, 14, 17, 20, 23, 26}
 # defines the colors / associated cubies on a particular face
 
 
-
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     b = Builder()
     b.build_finished_cube()
 
 
-
-    # cube_json = {{6,6,6,6,6,6}, {}}
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 

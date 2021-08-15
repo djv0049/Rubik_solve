@@ -11,7 +11,8 @@ Test
 from unittest import TestCase
 from src.builder import Builder
 
-class Test_test_class(TestCase):
+
+class TestClass(TestCase):
     def before_all(self):
 
         pass

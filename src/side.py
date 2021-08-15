@@ -1,9 +1,11 @@
 
 from src.colors import Colors
 """
-
+insert documentation here
 
 """
+
+
 class Face:
     def __init__(self, color: Colors, square_id_list):  # color represents the middle square on the cube face
         self.squares = []
