@@ -8,19 +8,28 @@ insert documentation here
 
 class Face:
     def __init__(self, color: Colors, square_id_list):  # color represents the middle square on the cube face
+        self.color = color
         self.squares = []
         self.positions = []
         self.set_positions(color)
         self.set_cubies(color) # todo get rid of this and make it set the cubies dynamically
 
     def rotate_anti_clockwise(self):
-        pass
+        new_positions = [None] * 9
+        for current_index in range(len(self.squares)):
+            new_index = current_index - 2  # add special case for 6/7
+            if current_index == 8:  # center piece
+                new_index = current_index
+            elif new_index < 0:
+                new_index += 8
+            new_positions[new_index] = self.squares[current_index]
+        self.squares = new_positions
 
     def rotate_clockwise(self):
 
         new_positions = [None] * 9
         for current_index in range(len(self.squares)):
-            new_index = current_index + 2 # add special case for 6/7
+            new_index = current_index + 2  # add special case for 6/7
             if current_index == 8:   # center piece
                 new_index = current_index
             elif new_index > 7:
@@ -30,6 +39,11 @@ class Face:
 
     def rotate_180(self):
         pass
+
+    def update_cubie_position(self):
+        # [cubie.position = pos for cubie in self.squares]
+        for cubie in self.squares:
+            cubie.set_position(self.positions[self.squares.index(cubie)])
 
     def set_squares(self, square_id_list: list):
         for square_id in square_id_list:

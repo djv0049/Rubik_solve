@@ -12,6 +12,11 @@ class Cubies:
         return_string = f'Id: {self.id} \nPosition: {self.position}\nSides:{self.sides}\n\n'
         return return_string
 
+    def set_position(self, pos:int):
+        self.position = pos
+        return
+
+
 
 # corners, 3 faces/colors 8 positions and 3 orientations per pos
 class CornerCubie(Cubies):
