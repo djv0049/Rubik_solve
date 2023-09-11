@@ -4,6 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 from src.builder import Builder
+from Tests.test_initial_values import TestClass
 
 
 # constant positions. this is how we will determine the positions of the litlle cubes within the cube
@@ -54,6 +55,7 @@ yellow_face_positions = {2, 5, 8, 11, 14, 17, 20, 23, 26}
 if __name__ == '__main__':
     b = Builder()
     b.build_finished_cube()
+    t
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
