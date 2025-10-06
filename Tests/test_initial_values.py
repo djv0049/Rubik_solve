@@ -16,7 +16,7 @@ class TestClass(TestCase):
     def setUp(self):
         self.cube = Builder.build_finished_cube()
 
-
+    default_cube = Builder.build_finished_cube()
 
     def test_default_values(self):
         assert self.cube.sides[0].positions[0] == 6
@@ -74,7 +74,6 @@ class TestClass(TestCase):
             self.cube.rotate(r, 1)
             self.cube.rotate(g, -1)
 
-        default_cube = Builder.build_finished_cube()
         for side in default_cube.sides:
             index = default_cube.sides.index(side)
             tested_side = self.cube.sides[index]
